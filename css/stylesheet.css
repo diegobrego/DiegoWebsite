@@ -1,0 +1,49 @@
+.footerDiv{
+  background-color: #D0DB97;
+  border-radius: 10px;
+  border-bottom: 8px;
+  margin-top: 16px;
+  border-color: #181D27;
+  border-style: solid;
+  text-align: center;
+}
+
+:root{
+  background-color: #3A7D44;
+  font-family: "Righteous", sans-serif;
+}
+
+.mainDiv{
+  background-color: #D0DB97;
+  display: flex;
+  max-width: 1024px;
+  margin: 10px 20px;
+  align-self: center;
+  align-content: center;
+  border-radius: 10px;
+  border-bottom: 8px;
+  border-color: #181D27;
+  border-style: solid;
+}
+
+.MainGrid{
+  display: grid;
+  background-color: #D0DB97;
+  margin: 10px 20px;
+  border-radius: 10px;
+  border-bottom: 8px;
+  border-color: #181D27;
+  border-style: solid;
+}
+
+.gridItem{
+  display: grid;
+  place-items: center;
+  height: 8em;
+}
+
+.gameCard{
+  width: 100%;
+  padding: 16px;
+  background-color: rgba(208, 219, 151, 0.5);
+}
