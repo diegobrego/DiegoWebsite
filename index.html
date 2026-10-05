@@ -2,21 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diego Schram - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diego Schram Games</title>
+  <meta name="description" content="Small, cozy pixel games by Diego Schram Games. Find Micro Macro Farm, Progress Bar Deluxe and more on Steam.">
+  <meta name="theme-color" content="#264653">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Diego Schram Games">
+  <meta property="og:description" content="Small, cozy pixel games made in Germany.">
+  <meta property="og:image" content="https://www.diegoschram.com/assets/Logo.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/png" href="assets/Logo.png">
   <link rel="stylesheet" href="css/stylesheet.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+  <script src="site.config.js" defer></script>
+  <script src="js/site.js" defer></script>
+  <script src="js/home.js" defer></script>
 </head>
+<body class="home">
 
-<header style="text-align: center; ">
+  <div class="page">
+    <main class="panel">
 
-</header>
+      <header class="hero">
+        <h1 data-cfg="studio.name">Diego Schram Games</h1>
+        <p class="tagline" data-require="studio.tagline"><span data-cfg="studio.tagline">Small, cozy pixel games made in Germany.</span></p>
+        <div class="icon-row" id="social"></div>
+      </header>
 
-<body>
+      <section class="section" id="about" data-require="studio.about">
+        <h2 class="section-title"><span>About</span></h2>
+        <div class="about" id="about-text"></div>
+      </section>
 
-  <div class="MainContainer">
-    <h1>UNDER CONSTRUCTION</h1>
+      <!-- Filled by js/home.js from site.config.js -->
+      <div id="games">
+        <noscript>
+          <p>Please enable JavaScript to see the game list, or visit
+            <a href="https://store.steampowered.com/developer/dissgames">my Steam page</a>.</p>
+        </noscript>
+      </div>
+
+      <footer class="panel-footer">
+        <p data-require="company.city">Based in <span data-cfg="company.city"></span>, Germany</p>
+        <p>&copy; <span data-year>2026</span> <span data-cfg="studio.name">Diego Schram Games</span>
+          <span data-require="company.email"> &middot; <a data-mailto="company.email" href="#"></a></span></p>
+        <p><a href="impressum.html">Impressum</a> &middot; <a href="datenschutz.html">Datenschutz</a></p>
+        <p class="credits">Icons by <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a></p>
+      </footer>
+
+    </main>
   </div>
-</body>
 
+</body>
 </html>
