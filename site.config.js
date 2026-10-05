@@ -32,7 +32,7 @@ window.SITE = {
   links: {
     steam: "https://store.steampowered.com/developer/dissgames",
     itch: "https://mrbrego.itch.io",
-    x: "https://x.com/mrbrego",
+    x: "https://x.com/MrBregoS",
     instagram: "",
     facebook: "",
   },
